@@ -61,7 +61,7 @@ cd college-management-system-php
 
 # List files (optional)
 ls
-
+```
 ## 📸 Screenshots
 
 > Screenshots are stored in the `/screenshot` folder. You can update this section with preview images like homepage, admin login, dashboard, etc.
@@ -70,9 +70,9 @@ ls
 
 ## 🧑‍💻 Author
 
-**Rohit Lakha**  
-🎓 BCA Project – GNA University  
-📅 Created: August 2023 – July 2025  
+**Rohit **  
+🎓 BCA Project – Shree Hanumat IMT  
+📅 Created: August 2021 – July 2024  
 
 ---
 
