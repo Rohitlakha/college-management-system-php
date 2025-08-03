@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Responsive design settings -->
+    <meta name="viewport" content="with=device-width, initial-scale=1">
+
+    <title>University Website</title>
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts integration -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.2/css/font-awesome.css">
+</head>
+
+<body>
+
+<!-- ========== HEADER SECTION ========== -->
+<section class="sub-header">
+    <nav>
+        <!-- Logo -->
+        <a href="index.html"><img src="images/logo.png" alt="University Logo"></a>
+
+        <!-- Navigation Links -->
+        <div class="nav-links" id="navLinks">
+            <!-- Close icon for mobile view -->
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <!-- Navigation Items -->
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="adminLogin1.php">ADMIN</a></li>
+            </ul>
+        </div>
+
+        <!-- Menu icon for mobile view -->
+        <i class="fa fa-bars" onclick="showMenu()" ></i>
+    </nav>
+
+    <!-- Page Heading -->
+    <h1>About Us</h1>
+</section>
+
+
+<!-- ========== ABOUT US CONTENT ========== -->
+<section class="about-us">
+    <div class="row">
+        <!-- Left Column: Text Content -->
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>
+            <p>
+                Grand Canyon College was founded as a nonprofit institution in 1949 in Prescott, Arizona...
+                (description of the institution's background and history)
+            </p>
+            <!-- Registration button -->
+            <a href="reg1.html" class="hero-btn red-btn">REGISTRATION</a>
+        </div>
+
+        <!-- Right Column: Image -->
+        <div class="about-col">
+            <img src="images/about.jpg" alt="About Image">
+        </div>
+    </div>
+</section>
+
+
+<!-- ========== FOOTER SECTION ========== -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>
+        The university has always been a research-led university...
+        (short mission statement or recent update)
+    </p>
+
+    <!-- Social Media Icons -->
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+    </div>
+
+    <!-- Footer credit -->
+    <p>Made By <i class="fa fa-heart"></i> Rohit Lakha</p>
+</section>
+
+
+<!-- ========== JAVASCRIPT FOR TOGGLE MENU ========== -->
+<script>
+    // Grab the nav links div
+    var navLinks = document.getElementById("navLinks");
+
+    // Show the menu (mobile)
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    // Hide the menu (mobile)
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

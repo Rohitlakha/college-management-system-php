@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Viewport settings for responsive layout -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>University Website</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts and Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.2/css/font-awesome.css">
+
+    <!-- Smooth scroll plugin (optional UI improvement) -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+
+<body>
+
+<!-- ========== HEADER SECTION ========== -->
+<section class="sub-header">
+    <nav>
+        <!-- Logo -->
+        <a href="index.html"><img src="images/logo.png" alt="University Logo"></a>
+
+        <!-- Navigation menu -->
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="adminIndex.html">HOME</a></li>
+                
+                <!-- Dropdown menu for courses -->
+                <div class="dropdown">
+                    <button class="dropbtn" style="font-size: 13px;">COURSE</button>
+                    <div class="dropdown-content">
+                        <a href="courseADD.php">ADD</a>
+                        <a href="courseManage.php">MANAGE</a>
+                    </div>
+                </div>
+
+                <li><a href="ManageStudent.php">STUDENT</a></li>
+                <li><a href="index.html">LOGOUT</a></li>
+            </ul>
+        </div>
+        
+        <!-- Mobile menu icon -->
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>WELCOME TO ADMIN SIDE</h1>
+</section>
+
+
+<!-- ========== COURSES SECTION ========== -->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p class="1">Here are some provided courses--</p>
+
+    <div class="row">
+        <!-- Diploma Courses -->
+        <div class="course-col">
+            <h3>Diploma</h3>
+            <p class="dep"><i class="fa fa-pencil-square" style="color: #f44336;"></i> Diploma in Computer Sci</p>
+            <p class="dep"><i class="fa fa-pencil-square" style="color: #f44336;"></i> Diploma in Mechanical Eng</p>
+            <p class="dep"><i class="fa fa-pencil-square" style="color: #f44336;"></i> Diploma in Fashion Design</p>
+            <p class="dep"><i class="fa fa-pencil-square" style="color: #f44336;"></i> Diploma in Accounting</p>
+            <p class="dep"><i class="fa fa-pencil-square" style="color: #f44336;"></i> Diploma in Cosmetology</p>
+        </div>
+
+        <!-- Graduation Courses -->
+        <div class="course-col">
+            <h3>Graduation</h3>
+            <p class="dep"><i class="fa fa-book" style="color: #f44336;"></i> Bachelor of Arts</p>
+            <p class="dep"><i class="fa fa-book" style="color: #f44336;"></i> Bachelor of Computer Application</p>
+            <p class="dep"><i class="fa fa-book" style="color: #f44336;"></i> Bachelor Of Commerce</p>
+            <p class="dep"><i class="fa fa-book" style="color: #f44336;"></i> Bachelor of Business Administration</p>
+            <p class="dep"><i class="fa fa-book" style="color: #f44336;"></i> Hotel Management (BHMCT)</p>
+        </div>
+
+        <!-- Post Graduation Courses -->
+        <div class="course-col">
+            <h3>Post Graduation</h3><br><br>
+            <p>
+                <i class="fa fa-hand-o-right" style="color: #f44336;"></i> Master Of Computer Application,
+                <i class="fa fa-hand-o-right" style="color: #f44336;"></i> Master Of Commerce,
+                <i class="fa fa-hand-o-right" style="color: #f44336;"></i> MA English,
+                <i class="fa fa-hand-o-right" style="color: #f44336;"></i> MA Punjabi,<br>
+                <i class="fa fa-hand-o-right" style="color: #f44336;"></i> Master of Business Administration
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- ========== FACILITIES SECTION ========== -->
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p class="1">Our Facilities For Students--</p>
+
+    <div class="row">
+        <!-- Library -->
+        <div class="facilities-col">
+            <img src="images/library.png" alt="Library Image">
+            <h3 style="text-align: center;">World Class library</h3>
+            <p>Punjabi Novel, English Stories, Poetry, Comic Books</p>
+        </div>
+
+        <!-- Playground -->
+        <div class="facilities-col">
+            <img src="images/basketball.png" alt="Playground Image">
+            <h3 style="text-align: center;">Play Ground</h3>
+            <p>Football, Badminton, Table-Tennis, Basketball, Swimming, Weightlifting</p>
+        </div>
+
+        <!-- Cafeteria -->
+        <div class="facilities-col">
+            <img src="images/cafeteria.png" alt="Cafeteria Image">
+            <h3 style="text-align: center;">Tasty and Healthy Food</h3>
+            <p>Snacks, Cakes and Pastries, Cheesy Pizza, Italian Noodles</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- ========== TESTIMONIAL SECTION ========== -->
+<section class="testimonials">
+    <h1>What Our Students Say</h1>
+
+    <div class="row">
+        <!-- Testimonial 1 -->
+        <div class="testimonials-col">
+            <img src="images/user1.jpg" alt="Student 1">
+            <div>
+                <p>Students share their thoughts and suggestions about the university's education and priorities.</p>
+                <h3>Christine Berkley</h3>
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+            </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonials-col">
+            <img src="images/user2.jpg" alt="Student 2">
+            <div>
+                <p>Comments on shifting educational focus and the need to restore quality learning systems.</p>
+                <h3>David Byer</h3>
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ========== FOOTER SECTION ========== -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The university has always been a research-led institution, but has recently shifted focus toward practical projects beneficial to both academics and industry.</p>
+    
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+    </div>
+    
+    <p>Made By <i class="fa fa-heart"></i> Rohit Lakha</p>
+</section>
+
+
+<!-- ========== SCRIPT SECTION ========== -->
+
+<!-- JavaScript to toggle mobile navigation menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<!-- Bootstrap JS bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
