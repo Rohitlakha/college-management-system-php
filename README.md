@@ -1,6 +1,15 @@
 # 🎓 College Management System - PHP (XAMPP)
 
-![PHP](https://img.shields.io/badge/Backend-PHP-777BB4?style=flat&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![XAMPP](https://img.shields.io/badge/Server-XAMPP-FB7A24?style=flat&logo=apache&logoColor=white) ![HTML](https://img.shields.io/badge/Frontend-HTML-orange?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/Frontend-CSS-blue?style=flat&logo=css3&logoColor=white) ![JS](https://img.shields.io/badge/Frontend-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Status](https://img.shields.io/badge/Project-Educational-brightgreen?style=flat)
+![PHP](https://img.shields.io/badge/Backend-PHP-777BB4?style=flat&logo=php&logoColor=white) 
+![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=flat&logo=mysql&logoColor=white) 
+![XAMPP](https://img.shields.io/badge/Server-XAMPP-FB7A24?style=flat&logo=apache&logoColor=white) 
+![HTML](https://img.shields.io/badge/Frontend-HTML-orange?style=flat&logo=html5&logoColor=white) 
+![CSS](https://img.shields.io/badge/Frontend-CSS-blue?style=flat&logo=css3&logoColor=white) 
+![JS](https://img.shields.io/badge/Frontend-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) 
+![Status](https://img.shields.io/badge/Project-Educational-brightgreen?style=flat) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/rohit-lakha/) 
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat&logo=github)](https://github.com/Rohitlakha)
+
  
 
 A **basic College Management System** built using **PHP** and **MySQL**, hosted on **XAMPP** for local development.  
