@@ -1,36 +1,45 @@
-# College Management System - PHP (XAMPP)
+# 🎓 College Management System - PHP (XAMPP)
 
-A basic **College Management System** built using PHP and MySQL. This project is developed for educational purposes to help students learn the basics of web development and database integration.
+![PHP](https://img.shields.io/badge/Backend-PHP-777BB4?style=flat&logo=php&logoColor=white)  
+![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)  
+![XAMPP](https://img.shields.io/badge/Server-XAMPP-FB7A24?style=flat&logo=apache&logoColor=white)  
+![HTML](https://img.shields.io/badge/Frontend-HTML-orange?style=flat&logo=html5&logoColor=white)  
+![CSS](https://img.shields.io/badge/Frontend-CSS-blue?style=flat&logo=css3&logoColor=white)  
+![JS](https://img.shields.io/badge/Frontend-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)  
+![Status](https://img.shields.io/badge/Project-Educational-brightgreen?style=flat)  
+
+A **basic College Management System** built using **PHP** and **MySQL**, hosted on **XAMPP** for local development.  
+This project was created for **educational purposes**, helping students understand **web development, database connectivity, and CRUD operations**.  
 
 ---
 
 ## 🔧 Technologies Used
-
-- **PHP** (Backend)
-- **MySQL** (Database)
-- **XAMPP** (Local server environment)
-- **HTML/CSS/JavaScript** (Frontend)
+- **PHP** – Backend scripting  
+- **MySQL** – Database management  
+- **XAMPP** – Local server environment  
+- **HTML5, CSS3, JavaScript** – Frontend  
 
 ---
 
 ## 📁 Folder Structure
 ```bash
-├── database/ → Contains database files
-├── images/ → Stores all image assets
-├── include/ → Header/footer includes
-├── screenshot/ → Screenshots for preview
-
-Individual Files:
-├── about.php → About page
-├── adminLogin.php → Admin login system
-├── adminIndex.php → Admin dashboard
-├── blog.php → Blog section
-├── blog-insert.php → Blog data submission
-├── contact.php → Contact form
-├── contact-insert.php → Stores contact form data
-├── course.php → Course list
-├── courseADD.php → Add new course
-├── connection.php → DB connection file
+college-management-system-php/
+│
+├── database/        # Database files
+├── images/          # Image assets
+├── include/         # Header/Footer include files
+├── screenshot/      # Screenshots of project
+│
+├── about.php        # About page
+├── adminLogin.php   # Admin login system
+├── adminIndex.php   # Admin dashboard
+├── blog.php         # Blog section
+├── blog-insert.php  # Blog data submission
+├── contact.php      # Contact form
+├── contact-insert.php # Store contact form data
+├── course.php       # Course list
+├── courseADD.php    # Add new course
+├── connection.php   # Database connection
 ```
 
 ---
