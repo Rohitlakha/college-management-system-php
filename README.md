@@ -77,7 +77,7 @@ ls
 ```
 ## 📸 Screenshots
 
-> Screenshots are stored in the `/screenshot` folder. You can update this section with preview images like homepage, admin login, dashboard, etc.
+![Home page](https://github.com/Rohitlakha/college-management-system-php/blob/e333a83bae608f9eea5f5d164989a5d4d0dc76b7/screenshot/SharedScreenshot1.jpg)
 
 ---
 
